@@ -1,3 +1,3 @@
 # Project-1
 
-Testing branching
+Testing main rule
