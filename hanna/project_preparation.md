@@ -4,10 +4,10 @@
 Moving Average (MA) Crossover Strategy is very well known and the most simple long-only trading strategy. Signals to buy is depending on the crossover of short lookback period over long lookback period. In contrast, the sell signal is triggered when MA long lookback crosses the MA short lookback.
 
 There are 5 most popular strategies:
-* The Golden Cross (50 SMA crossing 200 SMA)
-* 50 SMA crossing 100 SMA 
-* 20 EMA crossing 50 SMA
-* 11 EMA crossing the 49 EMA 
+* 50 SMA crossing 200 SMA [Hanna]
+* 50 SMA crossing 100 SMA [Claudia]
+* 20 EMA crossing 50 SMA [Atousa]
+* 11 EMA crossing the 49 EMA [Jalal]
 * 9 EMA crossing 20 EMA
 
 <b> <u> @ TEAM: ACTION NEEDED </u> </b>: each of us will choose one strategy for backtesting  
@@ -15,7 +15,7 @@ There are 5 most popular strategies:
 ## Hypothesis
 Our goal is to examine whether MA crossover strategies benefit for ETF investor from both return and risk perspective.
 
-Benchmark: SPY, SPY Sharp Ratio
+Benchmark: SPY, SPY Sharp Ratio 
 
 
 ## The Settings
@@ -62,3 +62,4 @@ With the objectives of :
 
 * can we optimize the best strategy(?) testing whether buying 2- 3 days after the trigger is efficient than just 1 day?
 * if we can count the total number of buy and sell order to decide which strategy is the most saving in terms of trading cost 
+* test if the strateygy is efficient during certain period. i.e: during booming time or covid period
