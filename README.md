@@ -43,27 +43,43 @@ We used Pandas Datareader to get "SPY" data from yfinance (Yahoo). Even though w
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy1_vs_bm_cumulative_return.png "strategy1_vs_bm_cumulative_return")
 
-Above chart shows strategy 1's total return vs SPY total return.
+Above chart shows strategy 1's total return vs SPY total return. YOUR WORDS ...
+
+![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy1_drawdown_pct.png "strategy1_drawdown")
+
+This chart shows the strategy1 drawdown period from 1997 to 2021. A drawdown is a peak-to-trough decline during a specific period for an investment. Drawdowns are important for measuring the historical risk of an investment. YOUR WORDS ...
 
 **Strategy 2 : 50 SMA crossing 100 SMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_vs_bm_cumulative_return.png "strategy2_vs_bm_cumulative_return")
 
-Above chart shows strategy 2's total return vs SPY total return.
+Above chart shows strategy 2's total return vs SPY total return. YOUR WORDS ...
+
+![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_drawdown_pct.png "strategy2_drawdown")
+
+This chart shows the strategy2 drawdown period from 1997 to 2021.  YOUR WORDS ...
+
 
 **Strategy 3 : 20 EMA crossing 50 SMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy3_vs_bm_cumulative_return.png "strategy3_vs_bm_cumulative_return")
 
-Above chart shows strategy 3's total return vs SPY total return.
+Above chart shows strategy 3's total return vs SPY total return. YOUR WORDS ...
 
+![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy3_drawdown_pct.png "strategy3_drawdown")
+
+This chart shows the strategy3 drawdown period from 1997 to 2021.  YOUR WORDS ...
 
 
 **Strategy 4 : 11 EMA crossing the 49 EMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy4_vs_bm_cumulative_return.png "strategy4_vs_bm_cumulative_return")
 
-Above chart shows strategy 4's total return vs SPY total return.
+Above chart shows strategy 4's total return vs SPY total return. YOUR WORDS ...
+
+![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy4_drawdown_pct.png "strategy4_drawdown")
+
+This chart shows the strategy4 drawdown period from 1997 to 2021.   YOUR WORDS ...
 
 **Comparision of strategy returns**
 
