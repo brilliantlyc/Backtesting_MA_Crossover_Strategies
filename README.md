@@ -90,3 +90,11 @@ Above chart shows all the strategy returns.
 ## **If we had more time...**
 
 If we had more time, first thing we would do to perfect the code. This includes writing functions that can be implemented with various strategies. We would also love to calculate new performance indicators and use them to compare the performance of each strategy. In addition, we could test the peformance of other trading indicators including RSI, MACD.
+
+## **References**
+
+[STOCKBROS RESEARCH](https://www.stockbrosresearch.com/themoneyblog/do-moving-average-crossover-trading-strategies-really-work-backtesting-golden-crosses-and-more )
+
+[LEARNDATASCI](https://www.learndatasci.com/tutorials/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
+
+
