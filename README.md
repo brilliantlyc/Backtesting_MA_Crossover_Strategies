@@ -48,6 +48,7 @@ Above chart shows strategy 1's total return vs SPY total return. In terms of tot
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy1_drawdown_pct.png "strategy1_drawdown")
 
 This chart shows the strategy1 drawdown period from 1997 to 2021. A drawdown is a peak-to-trough decline during a specific period for an investment. Drawdowns are important for measuring the historical risk of an investment. 
+
 **Strategy 2 : 50 SMA crossing 100 SMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_vs_bm_cumulative_return.png "strategy2_vs_bm_cumulative_return")
