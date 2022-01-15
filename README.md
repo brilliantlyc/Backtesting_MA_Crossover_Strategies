@@ -57,7 +57,7 @@ Above chart shows strategy 2's total return vs SPY total return. As we can see f
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_drawdown_pct.png "strategy2_drawdown")
 
-This chart shows the strategy2 drawdown period from 1997 to 2021.  YOUR WORDS ...
+This chart shows the strategy2 drawdown period from 1997 to 2021.
 
 
 **Strategy 3 : 20 EMA crossing 50 SMA**
