@@ -7,6 +7,15 @@ Hanna Ho, Claudia Martinez, Atousa Mirzaei-Rezaei, Jalal Huseynov
 
 Moving Average (MA) Crossover Strategy is very well known and the most simple long-only trading strategy. Signals to buy is depending on the crossover of short lookback period over long lookback period. In contrast, the sell signal is triggered when MA long lookback crosses the MA short lookback.Our goal is to examine whether MA crossover strategies benefit for S&P ETF investors from both return and risk perspective. In this project, we will test four popular strategies which are 50 SMA crossing 200 SMA ,50 SMA crossing 100 SMA ,20 EMA crossing 50 SMA, and 11 EMA crossing the 49 EMA. 
 
+## **The Settings**
+
+* No leverage/margin is used
+* Buy and sell is on the close prices when signal is triggered
+* All profit/loss will be reinvested in one trade
+* No commision/fee/tax is taken into consideration
+* Time horizon: 25 years - 1/1/1997 - 12/31/2021
+
+
 ## **Dataset that was used**
 We used Pandas Datareader to get "SPY" data from yfinance (Yahoo). Even though we did not cover this in the class, we found it easy to use. After we checked the data, we saw that data is clean and it does not any cleaning.
 
@@ -41,56 +50,56 @@ We used Pandas Datareader to get "SPY" data from yfinance (Yahoo). Even though w
 **Strategy 1 : 50 SMA crossing 200 SMA**
 
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy1_vs_bm_cumulative_return.png "strategy1_vs_bm_cumulative_return")
+![alt text](images/strategy1_vs_bm_cumulative_return.png "strategy1_vs_bm_cumulative_return")
 
 Above chart shows strategy 1's total return vs SPY total return. In terms of total returns, we can observe that strategy1 started to outperform the benchmark from 2008. The reason was that sell signal triggered before the big crash. However, we can see that strategy1 had sold the position late during 2020 Covid crash which caused it to underperform the benchmark.
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy1_drawdown_pct.png "strategy1_drawdown")
+![alt text](images/strategy1_drawdown_pct.png "strategy1_drawdown")
 
 This chart shows the strategy1 drawdown period from 1997 to 2021. A drawdown is a peak-to-trough decline during a specific period for an investment. Drawdowns are important for measuring the historical risk of an investment. 
 
 **Strategy 2 : 50 SMA crossing 100 SMA**
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy2_vs_bm_cumulative_return.png "strategy2_vs_bm_cumulative_return")
+![alt text](images/strategy2_vs_bm_cumulative_return.png "strategy2_vs_bm_cumulative_return")
 
 Above chart shows strategy 2's total return vs SPY total return. As we can see from the chart that this strategy never managed to outperform the benchmark. 
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy2_drawdown_pct.png "strategy2_drawdown")
+![alt text](images/strategy2_drawdown_pct.png "strategy2_drawdown")
 
 This chart shows the strategy2 drawdown period from 1997 to 2021.
 
 
 **Strategy 3 : 20 EMA crossing 50 SMA**
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy3_vs_bm_cumulative_return.png "strategy3_vs_bm_cumulative_return")
+![alt text](images/strategy3_vs_bm_cumulative_return.png "strategy3_vs_bm_cumulative_return")
 
 Above chart shows strategy 3's total return vs SPY total return. Strategy3 is the worst performing againist the bechmark.
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy3_drawdown_pct.png "strategy3_drawdown")
+![alt text](images/strategy3_drawdown_pct.png "strategy3_drawdown")
 
 This chart shows the strategy3 drawdown period from 1997 to 2021.
 
 **Strategy 4 : 11 EMA crossing the 49 EMA**
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy4_vs_bm_cumulative_return.png "strategy4_vs_bm_cumulative_return")
+![alt text](images/strategy4_vs_bm_cumulative_return.png "strategy4_vs_bm_cumulative_return")
 
 Above chart shows strategy 4's total return vs SPY total return.
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/strategy4_drawdown_pct.png "strategy4_drawdown")
+![alt text](images/strategy4_drawdown_pct.png "strategy4_drawdown")
 
 This chart shows the strategy4 drawdown period from 1997 to 2021. 
 
 **Comparision of strategy returns**
 
-![alt text](https://github.com/brilliantlyc/Project-1/blob/main/images/comparison_cumulative_returns.png "Comparision of strategy returns")
+![alt text](images/comparison_cumulative_returns.png "Comparision of strategy returns")
 
 Above chart shows all the strategy returns.
 
 ##  **Conclusion**
 
 Several key thoughts we would like to share:
-* With just simple moving average crossover strategy, it's very hard to beat the index with ETF. End of the day, buy and hold strategy seems to be the best ( same strategy as Benjamin Graham and Warren Buffett )
-* Among the four strategy, strategy 1 which is also known as "golden cross"" seems to be more effcient than the others in terms of return, volatility, and win rate
+* With just simple moving average crossover strategy, it's very hard to beat the index with ETF. End of the day, buy and hold strategy seems to be the best, just as same strategy as Benjamin Graham and Warren Buffett )
+* Among the four strategies, strategy 1 which is also known as "golden cross"" seems to be more effcient than the others in terms of return, volatility, and win rate
 
 ## **If we had more time...**
 
