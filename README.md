@@ -7,6 +7,15 @@ Hanna Ho, Claudia Martinez, Atousa Mirzaei-Rezaei, Jalal Huseynov
 
 Moving Average (MA) Crossover Strategy is very well known and the most simple long-only trading strategy. Signals to buy is depending on the crossover of short lookback period over long lookback period. In contrast, the sell signal is triggered when MA long lookback crosses the MA short lookback.Our goal is to examine whether MA crossover strategies benefit for S&P ETF investors from both return and risk perspective. In this project, we will test four popular strategies which are 50 SMA crossing 200 SMA ,50 SMA crossing 100 SMA ,20 EMA crossing 50 SMA, and 11 EMA crossing the 49 EMA. 
 
+## **The Settings**
+
+* No leverage/margin is used
+* Buy and sell is on the close prices when signal is triggered
+* All profit/loss will be reinvested in one trade
+* No commision/fee/tax is taken into consideration
+* Time horizon: 25 years - 1/1/1997 - 12/31/2021
+
+
 ## **Dataset that was used**
 We used Pandas Datareader to get "SPY" data from yfinance (Yahoo). Even though we did not cover this in the class, we found it easy to use. After we checked the data, we saw that data is clean and it does not any cleaning.
 
