@@ -43,17 +43,16 @@ We used Pandas Datareader to get "SPY" data from yfinance (Yahoo). Even though w
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy1_vs_bm_cumulative_return.png "strategy1_vs_bm_cumulative_return")
 
-Above chart shows strategy 1's total return vs SPY total return. YOUR WORDS ...
+Above chart shows strategy 1's total return vs SPY total return. In terms of total returns, we can observe that strategy1 started to outperform the benchmark from 2008. The reason was that sell signal triggered before the big crash. However, we can see that strategy1 had sold the position late during 2020 Covid crash which caused it to underperform the benchmark.
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy1_drawdown_pct.png "strategy1_drawdown")
 
-This chart shows the strategy1 drawdown period from 1997 to 2021. A drawdown is a peak-to-trough decline during a specific period for an investment. Drawdowns are important for measuring the historical risk of an investment. YOUR WORDS ...
-
+This chart shows the strategy1 drawdown period from 1997 to 2021. A drawdown is a peak-to-trough decline during a specific period for an investment. Drawdowns are important for measuring the historical risk of an investment. 
 **Strategy 2 : 50 SMA crossing 100 SMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_vs_bm_cumulative_return.png "strategy2_vs_bm_cumulative_return")
 
-Above chart shows strategy 2's total return vs SPY total return. YOUR WORDS ...
+Above chart shows strategy 2's total return vs SPY total return. As we can see from the chart that this strategy never managed to outperform the benchmark. 
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy2_drawdown_pct.png "strategy2_drawdown")
 
@@ -64,7 +63,7 @@ This chart shows the strategy2 drawdown period from 1997 to 2021.  YOUR WORDS ..
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy3_vs_bm_cumulative_return.png "strategy3_vs_bm_cumulative_return")
 
-Above chart shows strategy 3's total return vs SPY total return. YOUR WORDS ...
+Above chart shows strategy 3's total return vs SPY total return. Strategy3 is the worst performing againist the bechmark.
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy3_drawdown_pct.png "strategy3_drawdown")
 
