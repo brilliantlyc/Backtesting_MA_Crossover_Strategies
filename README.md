@@ -89,8 +89,8 @@ Above chart shows all the strategy returns.
 ##  **Conclusion**
 
 Several key thoughts we would like to share:
-* With just simple moving average crossover strategy, it's very hard to beat the index with ETF. End of the day, buy and hold strategy seems to be the best ( same strategy as Benjamin Graham and Warren Buffett )
-* Among the four strategy, strategy 1 which is also known as "golden cross"" seems to be more effcient than the others in terms of return, volatility, and win rate
+* With just simple moving average crossover strategy, it's very hard to beat the index with ETF. End of the day, buy and hold strategy seems to be the best, just as same strategy as Benjamin Graham and Warren Buffett )
+* Among the four strategies, strategy 1 which is also known as "golden cross"" seems to be more effcient than the others in terms of return, volatility, and win rate
 
 ## **If we had more time...**
 
