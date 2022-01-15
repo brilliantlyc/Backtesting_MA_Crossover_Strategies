@@ -68,18 +68,17 @@ Above chart shows strategy 3's total return vs SPY total return. Strategy3 is th
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy3_drawdown_pct.png "strategy3_drawdown")
 
-This chart shows the strategy3 drawdown period from 1997 to 2021.  YOUR WORDS ...
-
+This chart shows the strategy3 drawdown period from 1997 to 2021.
 
 **Strategy 4 : 11 EMA crossing the 49 EMA**
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy4_vs_bm_cumulative_return.png "strategy4_vs_bm_cumulative_return")
 
-Above chart shows strategy 4's total return vs SPY total return. YOUR WORDS ...
+Above chart shows strategy 4's total return vs SPY total return.
 
 ![alt text](https://github.com/brilliantlyc/Project-1/blob/main/strategy4_drawdown_pct.png "strategy4_drawdown")
 
-This chart shows the strategy4 drawdown period from 1997 to 2021.   YOUR WORDS ...
+This chart shows the strategy4 drawdown period from 1997 to 2021. 
 
 **Comparision of strategy returns**
 
